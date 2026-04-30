@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light;
+  --bg: #f0fdf4;
+  --surface: #ffffff;
+  --text-primary: #1a2e1a;
+  --text-secondary: #4a6a4a;
+  --text-heading: #0f1f0f;
+  --accent: #22c55e;
+  --accent-hover: #16a34a;
+  --accent-text: #ffffff;
+  --accent-shadow: rgba(34, 197, 94, 0.3);
+  --accent-bg: rgba(34, 197, 94, 0.1);
+  --border: rgba(34, 197, 94, 0.15);
+  --card-shadow: rgba(34, 197, 94, 0.12);
+  --card-radius: 20px;
+  --header-bg: rgba(240, 253, 244, 0.9);
+  --hero-bg: linear-gradient(135deg, #22c55e 0%, #16a34a 30%, #eab308 70%, #f97316 100%);
+  --hero-text: #ffffff;
+  --footer-bg: #ffffff;
+}
+
+.hero {
+  background: var(--hero-bg);
+  padding-block: 80px;
+}
+
+.hero-app-icon {
+  border-radius: 48px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2), 0 0 0 4px rgba(255, 255, 255, 0.3);
+}
+
+.hero-text h1 {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  border-radius: 50px;
+  padding: 16px 32px;
+  font-size: 1.05rem;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+.feature-card {
+  border-radius: 20px;
+  border: 2px solid var(--border);
+}
+
+.feature-card:hover {
+  border-color: var(--accent);
+}
+
+.feature-card .feature-icon {
+  border-radius: 16px;
+  background: var(--accent-bg);
+}
+
+.about-section {
+  background: var(--surface);
+}
+
+.about-section .about-text {
+  max-width: 700px;
+  margin-inline: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}

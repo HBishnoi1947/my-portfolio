@@ -1,0 +1,59 @@
+:root {
+  color-scheme: dark;
+  --bg: #0a0a0f;
+  --surface: #141420;
+  --text-primary: #f0f0f5;
+  --text-secondary: #8b8b9e;
+  --text-heading: #ffffff;
+  --accent: #06d6a0;
+  --accent-text: #0a0a0f;
+  --border: rgba(6, 214, 160, 0.12);
+  --header-bg: rgba(10, 10, 15, 0.9);
+  --footer-bg: #0a0a0f;
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin-inline: auto;
+  padding: 64px 24px 80px;
+  text-align: center;
+}
+
+.privacy-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  margin-bottom: 24px;
+}
+
+.privacy-content .placeholder {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+.privacy-content .placeholder a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* Footer (dark) */
+.app-footer {
+  --footer-divider: rgba(6, 214, 160, 0.08);
+  --footer-heading: #e2e8f0;
+  --footer-muted: #8b8b9e;
+}
+
+.app-footer .footer-brand span {
+  color: #ffffff;
+}
+
+.app-footer .footer-col a:hover {
+  color: var(--accent);
+}
+
+.app-footer .footer-bottom a:hover {
+  color: var(--accent);
+}

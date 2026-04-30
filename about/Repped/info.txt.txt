@@ -1,0 +1,40 @@
+Repped: Workout Rep Counter
+
+Turn your phone into a personal rep counter. Repped uses your camera and AI pose detection to automatically count your reps in real-time. No wearables, no manual logging — just press start and work out.
+
+HOW IT WORKS
+Place your phone in front of you, select an exercise, and go. Repped tracks your body using advanced pose detection, counts every rep, and gives you real-time feedback.
+
+SUPPORTED EXERCISES
+- Push-ups
+- Squats
+- Dand (Hindu Push-ups)
+- Bomber Burpees
+- Plank (Hold timer)
+
+STRUCTURED WORKOUT PACKAGES
+Go beyond freeform with 7 structured programs designed for real results. Each package starts with a max test to assess your fitness level, then generates a personalized schedule with progressive overload and deload days.
+
+- Desk Warrior: For those stuck at a desk all day
+- Lean & Shred: Cut fat, build definition
+- Total Transformation: Full-body overhaul
+- 100 Days of Discipline: Build an unbreakable habit
+- Wrestler: Functional strength & endurance
+- Power Surge: Explosive power training
+- Wedding Ready: Look your best for the big day
+
+WORKOUT REELS & STAT SHARING
+- Workout Reels: Record and generate sped-up highlight reels with stylish overlays and filters.
+- Stats Sharing: Snap a post-workout selfie with your stats overlaid in one of six themes.
+
+TRACK YOUR PROGRESS
+- Daily rep counts and workout history
+- Personal bests for every exercise
+- Streak tracking to keep you consistent
+- Activity trends and exercise breakdowns
+- Package progress with day-by-day results
+
+Smart. Automatic. Motivating.
+Repped takes the hassle out of tracking so you can focus on what matters — putting in the work. Let your phone count while you push your limits.
+
+Download Repped and let the AI handle the counting.

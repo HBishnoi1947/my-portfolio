@@ -1,0 +1,134 @@
+:root {
+  color-scheme: light;
+  --bg: #fffdf7;
+  --surface: #ffffff;
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+  --text-heading: #1c1917;
+  --accent: #ca8a04;
+  --accent-text: #ffffff;
+  --accent-shadow: rgba(202, 138, 4, 0.25);
+  --border: #f0e6d0;
+  --header-bg: rgba(255, 253, 247, 0.92);
+  --footer-bg: #1c1917;
+}
+
+.brand-icon {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(202, 138, 4, 0.15);
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin-inline: auto;
+  padding: 64px 24px 80px;
+}
+
+.privacy-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  margin-bottom: 8px;
+}
+
+.privacy-content .last-updated {
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}
+
+.privacy-content .intro {
+  color: var(--text-secondary);
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+.privacy-content h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+
+.privacy-content h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: var(--text-heading);
+}
+
+.privacy-content p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.privacy-content ul {
+  padding-left: 24px;
+  list-style: disc;
+  margin-bottom: 16px;
+}
+
+.privacy-content li {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 4px;
+}
+
+.privacy-content a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.privacy-content strong {
+  color: var(--text-heading);
+  font-weight: 600;
+}
+
+.contact-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 16px 0;
+}
+
+.contact-block p {
+  margin-bottom: 6px;
+}
+
+/* Footer (dark) */
+.app-footer {
+  background: var(--footer-bg);
+  border-top: none;
+  color: #a8a29e;
+  --footer-divider: rgba(255, 255, 255, 0.06);
+  --footer-heading: #d6d3d1;
+  --footer-muted: #a8a29e;
+}
+
+.app-footer .footer-brand span {
+  color: #fafaf9;
+}
+
+.app-footer .footer-col a {
+  color: #a8a29e;
+}
+
+.app-footer .footer-col a:hover {
+  color: #eab308;
+}
+
+.app-footer .footer-bottom {
+  color: #78716c;
+}
+
+.app-footer .footer-bottom a {
+  color: #a8a29e;
+}
+
+.app-footer .footer-bottom a:hover {
+  color: #eab308;
+}

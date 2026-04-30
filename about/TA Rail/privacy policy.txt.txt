@@ -1,0 +1,100 @@
+Privacy Policy
+
+Last Updated: 1 May 2026
+
+This Privacy Policy applies to the TA Rail mobile application (“Service”), developed and operated by 29 Tech (“we”, “our”, or “us”).
+
+By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
+
+1. Information We Collect
+
+We collect only the information necessary to provide and improve the Service.
+
+a. Personal Information
+
+When you use the app, we may collect:
+
+Phone number
+Any information entered by you within the app
+Account-related data (if applicable)
+b. Usage & Device Information
+
+We may automatically collect:
+
+Device type and OS version
+App usage data
+Log data (IP address, timestamps, crash logs)
+c. Payment & Subscription Data
+
+For in-app purchases and subscriptions:
+
+Payments are processed securely via platform providers (Google Play / Apple App Store)
+We do not store your card or banking details
+We may store purchase status (e.g., premium membership)
+2. How We Use Your Information
+
+We use collected data strictly for:
+
+Providing core app functionality
+Storing and backing up your data
+Restoring your data when needed
+Managing subscriptions and premium features
+Improving app performance and user experience
+3. Data Storage & Security
+Your data is stored on secure servers
+We use commercially reasonable security measures
+No method of transmission or storage is 100% secure
+4. Data Sharing
+
+We do not sell or rent your personal data.
+
+We may share limited data with:
+
+Service providers (for hosting, analytics, crash reporting)
+Payment processors (Google Play / Apple)
+
+These parties are obligated to use data only for service-related purposes.
+
+5. Data Retention
+Your data is retained as long as your account is active
+You can request deletion at any time
+Upon deletion, your data is permanently removed from our systems (subject to technical limitations)
+6. Your Rights & Controls
+
+You have full control over your data:
+
+Access and modify your data within the app
+Sign out at any time
+Delete your account and associated data
+
+For deletion requests, contact: harshupbishnoi@gmail.com
+
+7. Third-Party Services
+
+The app may use third-party services such as:
+
+Google Play Services
+Apple App Store services
+
+These services may collect information as per their own privacy policies.
+
+8. Children’s Privacy
+
+This Service is not intended for users under the age of 13.
+We do not knowingly collect data from children.
+
+9. External Links
+
+The app may contain links to external websites.
+We are not responsible for their content or privacy practices.
+
+10. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+Updates will be posted within the app or on this page.
+
+11. Contact Us
+
+If you have any questions or concerns:
+
+Email: harshupbishnoi@gmail.com

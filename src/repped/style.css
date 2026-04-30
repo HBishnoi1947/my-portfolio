@@ -1,0 +1,150 @@
+:root {
+  color-scheme: dark;
+  --bg: #0a0a0f;
+  --surface: #141420;
+  --text-primary: #f0f0f5;
+  --text-secondary: #8b8b9e;
+  --text-heading: #ffffff;
+  --accent: #06d6a0;
+  --accent-hover: #05b88a;
+  --accent-text: #0a0a0f;
+  --accent-shadow: rgba(6, 214, 160, 0.3);
+  --accent-bg: rgba(6, 214, 160, 0.1);
+  --border: rgba(6, 214, 160, 0.12);
+  --card-shadow: rgba(0, 0, 0, 0.5);
+  --card-radius: 16px;
+  --header-bg: rgba(10, 10, 15, 0.9);
+  --hero-bg: linear-gradient(135deg, #0a0a0f 0%, #1a1a3e 50%, #0f1a2e 100%);
+  --hero-text: #ffffff;
+  --footer-bg: #0a0a0f;
+  --glow: 0 0 40px rgba(6, 214, 160, 0.15);
+}
+
+.hero {
+  background: var(--hero-bg);
+}
+
+.hero-app-icon {
+  box-shadow: var(--glow), 0 20px 60px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(6, 214, 160, 0.2);
+}
+
+.hero-text h1 {
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.feature-card {
+  background: rgba(20, 20, 32, 0.8);
+  border: 1px solid rgba(6, 214, 160, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.feature-card:hover {
+  border-color: rgba(6, 214, 160, 0.3);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5), 0 0 20px rgba(6, 214, 160, 0.08);
+}
+
+.feature-card .feature-icon {
+  background: rgba(6, 214, 160, 0.1);
+  border: 1px solid rgba(6, 214, 160, 0.15);
+}
+
+.btn-primary {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  box-shadow: 0 0 24px rgba(6, 214, 160, 0.3);
+}
+
+/* How It Works */
+.how-it-works {
+  background: var(--surface);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+@media (max-width: 640px) {
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+.step {
+  text-align: center;
+}
+
+.step-number {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(6, 214, 160, 0.1);
+  border: 2px solid rgba(6, 214, 160, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.step h3 {
+  color: var(--text-heading);
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.step p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Exercises pill list */
+.exercises-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.exercise-pill {
+  background: rgba(6, 214, 160, 0.08);
+  border: 1px solid rgba(6, 214, 160, 0.2);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* Footer (dark) */
+.app-footer {
+  --footer-divider: rgba(6, 214, 160, 0.08);
+  --footer-heading: #e2e8f0;
+  --footer-muted: #8b8b9e;
+}
+
+.app-footer .footer-brand span {
+  color: #ffffff;
+}
+
+.app-footer .footer-col a:hover {
+  color: var(--accent);
+}
+
+.app-footer .footer-bottom a:hover {
+  color: var(--accent);
+}

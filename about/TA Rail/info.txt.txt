@@ -1,0 +1,40 @@
+TA Rail is a simple travelling allowance calculation app that helps the user to quickly calculate the travelling allowance (Percentage & Amount) with its in-built calculations based on the input given by the user and gives the output in a submittable pdf format.
+
+Features:
+1. Documentation app.
+2. Data analyzation with graph.
+3. Data saved & secured.
+4. No manual calculations.
+
+5. My Profile : Personal detail storage. No need to enter again. If want to update, then can.
+a. Name
+b. Branch
+c. Zone
+d. Division
+e. Head-Quarter
+f. Designation
+g. Date of Appointment/ Joining
+h. Basic Pay
+i. Pay Scale
+j. Grade Pay
+k. Provident Fund No.
+l. Travelling Allowance rate
+
+6. Duty Entry: Create a log of duty at one place
+a. Add Train Number, Departure – Arrival time, From-To and Objective of Travel to create an Entry. Edit Log.
+
+7. Preview: A well organised glimpse and view of the Duty Entries for a better on-the-go summary. Delete the monthly data which is not needed.
+
+8. Download PDF: Enter Month and Year of Duty for calculating the Travelling Allowance. Option to select Page Size: A4 and Legal. Options to Save, Share and Print the file.
+
+Note: PDF downloaded is in submittable format and so can directly be submitted to your own office.
+
+9. Contact Us: Feel free to contact the app developer for any complaints or suggestions.
+
+Data Source and Calculation Basis:
+This application provides a calculation tool for calculating allowance based on the rules and guidelines as published in the Indian Railway Establishment Code, Chapter 16 - Travelling Allowance Rules. The information and calculation logic are derived from publicly available data from official government sources.
+
+The specific reference document is available at: https://indianrailways.gov.in/railwayboard/uploads/directorate/establishment/estbl-chap16-p01-p50.jsp
+
+Disclaimer:
+This app is not affiliated with, endorsed by, or sponsored by any government entity.
