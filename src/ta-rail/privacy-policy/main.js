@@ -1,11 +1,13 @@
 import '../../shared/base.css'
 import './style.css'
 
+const base = import.meta.env.BASE_URL
+
 document.querySelector('#app').innerHTML = `
   <header class="app-header">
     <div class="container header-inner">
-      <a href="/ta-rail/" class="brand">
-        <img src="/images/ta-rail/launch-icon.png" alt="TA Rail" class="brand-icon" />
+      <a href="${base}ta-rail/" class="brand">
+        <img src="${base}images/ta-rail/launch-icon.png" alt="TA Rail" class="brand-icon" />
         <span class="brand-name">TA Rail&trade;</span>
       </a>
     </div>
@@ -130,7 +132,7 @@ document.querySelector('#app').innerHTML = `
       <div class="footer-top">
         <div class="footer-brand-col">
           <div class="footer-brand">
-            <img src="/images/ta-rail/launch-icon.png" alt="" class="footer-icon" />
+            <img src="${base}images/ta-rail/launch-icon.png" alt="" class="footer-icon" />
             <span>TA Rail&trade;</span>
           </div>
           <p class="footer-brand-desc">Travelling allowance calculation app based on Indian Railway Establishment Code.</p>
@@ -145,7 +147,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="/ta-rail/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}ta-rail/privacy-policy/">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -157,7 +159,7 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div class="footer-bottom">
         <span>&copy; ${new Date().getFullYear()} 29 Tech&trade;. All rights reserved.</span>
-        <a href="/ta-rail/">Back to TA Rail&trade;</a>
+        <a href="${base}ta-rail/">Back to TA Rail&trade;</a>
       </div>
     </div>
   </footer>

@@ -1,11 +1,13 @@
 import '../../shared/base.css'
 import './style.css'
 
+const base = import.meta.env.BASE_URL
+
 document.querySelector('#app').innerHTML = `
   <header class="app-header">
     <div class="container header-inner">
-      <a href="/repped/" class="brand">
-        <img src="/images/repped/launch-icon.png" alt="Repped" class="brand-icon" />
+      <a href="${base}repped/" class="brand">
+        <img src="${base}images/repped/launch-icon.png" alt="Repped" class="brand-icon" />
         <span class="brand-name">Repped</span>
       </a>
     </div>
@@ -24,7 +26,7 @@ document.querySelector('#app').innerHTML = `
       <div class="footer-top">
         <div class="footer-brand-col">
           <div class="footer-brand">
-            <img src="/images/repped/launch-icon.png" alt="" class="footer-icon" />
+            <img src="${base}images/repped/launch-icon.png" alt="" class="footer-icon" />
             <span>Repped</span>
           </div>
           <p class="footer-brand-desc">Turn your phone into a personal rep counter. AI-powered pose detection counts your reps in real-time.</p>
@@ -39,7 +41,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="/repped/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}repped/privacy-policy/">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -51,7 +53,7 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div class="footer-bottom">
         <span>&copy; ${new Date().getFullYear()} 29 Tech&trade;. All rights reserved.</span>
-        <a href="/repped/">Back to Repped</a>
+        <a href="${base}repped/">Back to Repped</a>
       </div>
     </div>
   </footer>

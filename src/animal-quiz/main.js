@@ -2,6 +2,8 @@ import '../shared/base.css'
 import './style.css'
 import { icons, storeBadges } from '../shared/icons.js'
 
+const base = import.meta.env.BASE_URL
+
 const features = [
   { icon: icons.camera, title: 'Picture Quizzes', desc: 'Can you guess the animal from its picture? Identify animals from different habitats around the world.' },
   { icon: icons.brain, title: 'Fact Quizzes', desc: 'Learn interesting and fun facts about animals. Discover what they eat, where they live, and more!' },
@@ -13,8 +15,8 @@ const features = [
 document.querySelector('#app').innerHTML = `
   <header class="app-header">
     <div class="container header-inner">
-      <a href="/animal-quiz/" class="brand">
-        <img src="/images/animal-quiz/launch-icon.png" alt="Animal Quiz" class="brand-icon" />
+      <a href="${base}animal-quiz/" class="brand">
+        <img src="${base}images/animal-quiz/launch-icon.png" alt="Animal Quiz" class="brand-icon" />
         <span class="brand-name">Animal Quiz - Kids</span>
       </a>
     </div>
@@ -31,7 +33,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="hero-visual">
-        <img src="/images/animal-quiz/launch-icon.png" alt="Animal Quiz App" class="hero-app-icon" />
+        <img src="${base}images/animal-quiz/launch-icon.png" alt="Animal Quiz App" class="hero-app-icon" />
         <p class="hero-app-name">Animal Quiz - Kids</p>
       </div>
     </div>
@@ -66,7 +68,7 @@ document.querySelector('#app').innerHTML = `
       <div class="footer-top">
         <div class="footer-brand-col">
           <div class="footer-brand">
-            <img src="/images/animal-quiz/launch-icon.png" alt="" class="footer-icon" />
+            <img src="${base}images/animal-quiz/launch-icon.png" alt="" class="footer-icon" />
             <span>Animal Quiz - Kids</span>
           </div>
           <p class="footer-brand-desc">The ultimate learning and fun experience for children. Explore the wild world of animals!</p>
@@ -81,7 +83,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="/animal-quiz/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}animal-quiz/privacy-policy/">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">

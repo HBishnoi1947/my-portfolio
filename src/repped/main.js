@@ -2,6 +2,8 @@ import '../shared/base.css'
 import './style.css'
 import { icons, storeBadges } from '../shared/icons.js'
 
+const base = import.meta.env.BASE_URL
+
 const features = [
   { icon: icons.scan, title: 'AI Pose Detection', desc: 'Real-time rep counting using your camera and advanced pose detection. No wearables needed.' },
   { icon: icons.target, title: '7 Workout Packages', desc: 'Structured programs from Desk Warrior to Wedding Ready. Personalized schedules with progressive overload.' },
@@ -14,8 +16,8 @@ const exercises = ['Push-ups', 'Squats', 'Dand', 'Bomber Burpees', 'Plank']
 document.querySelector('#app').innerHTML = `
   <header class="app-header">
     <div class="container header-inner">
-      <a href="/repped/" class="brand">
-        <img src="/images/repped/launch-icon.png" alt="Repped" class="brand-icon" />
+      <a href="${base}repped/" class="brand">
+        <img src="${base}images/repped/launch-icon.png" alt="Repped" class="brand-icon" />
         <span class="brand-name">Repped</span>
       </a>
     </div>
@@ -32,7 +34,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="hero-visual">
-        <img src="/images/repped/launch-icon.png" alt="Repped App" class="hero-app-icon" />
+        <img src="${base}images/repped/launch-icon.png" alt="Repped App" class="hero-app-icon" />
         <p class="hero-app-name">Repped</p>
       </div>
     </div>
@@ -84,7 +86,7 @@ document.querySelector('#app').innerHTML = `
       <div class="footer-top">
         <div class="footer-brand-col">
           <div class="footer-brand">
-            <img src="/images/repped/launch-icon.png" alt="" class="footer-icon" />
+            <img src="${base}images/repped/launch-icon.png" alt="" class="footer-icon" />
             <span>Repped</span>
           </div>
           <p class="footer-brand-desc">Turn your phone into a personal rep counter. AI-powered pose detection counts your reps in real-time.</p>
@@ -99,7 +101,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="/repped/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}repped/privacy-policy/">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">

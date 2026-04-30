@@ -1,25 +1,27 @@
 import '../shared/base.css'
 import './style.css'
 
+const base = import.meta.env.BASE_URL
+
 const apps = [
   {
     name: 'Animal Quiz - Kids',
-    slug: '/animal-quiz/',
-    icon: '/images/animal-quiz/launch-icon.png',
+    slug: `${base}animal-quiz/`,
+    icon: `${base}images/animal-quiz/launch-icon.png`,
     tagline: 'Learn about animals in a fun and interactive way',
     accentColor: '#22c55e',
   },
   {
     name: 'Repped',
-    slug: '/repped/',
-    icon: '/images/repped/launch-icon.png',
+    slug: `${base}repped/`,
+    icon: `${base}images/repped/launch-icon.png`,
     tagline: 'AI-powered workout rep counter',
     accentColor: '#06d6a0',
   },
   {
     name: 'TA Rail',
-    slug: '/ta-rail/',
-    icon: '/images/ta-rail/launch-icon.png',
+    slug: `${base}ta-rail/`,
+    icon: `${base}images/ta-rail/launch-icon.png`,
     tagline: 'Indian Railway travelling allowance calculator',
     accentColor: '#eab308',
   },

@@ -1,11 +1,13 @@
 import '../../shared/base.css'
 import './style.css'
 
+const base = import.meta.env.BASE_URL
+
 document.querySelector('#app').innerHTML = `
   <header class="app-header">
     <div class="container header-inner">
-      <a href="/animal-quiz/" class="brand">
-        <img src="/images/animal-quiz/launch-icon.png" alt="Animal Quiz" class="brand-icon" />
+      <a href="${base}animal-quiz/" class="brand">
+        <img src="${base}images/animal-quiz/launch-icon.png" alt="Animal Quiz" class="brand-icon" />
         <span class="brand-name">Animal Quiz - Kids</span>
       </a>
     </div>
@@ -24,7 +26,7 @@ document.querySelector('#app').innerHTML = `
       <div class="footer-top">
         <div class="footer-brand-col">
           <div class="footer-brand">
-            <img src="/images/animal-quiz/launch-icon.png" alt="" class="footer-icon" />
+            <img src="${base}images/animal-quiz/launch-icon.png" alt="" class="footer-icon" />
             <span>Animal Quiz - Kids</span>
           </div>
           <p class="footer-brand-desc">The ultimate learning and fun experience for children. Explore the wild world of animals!</p>
@@ -39,7 +41,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="/animal-quiz/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}animal-quiz/privacy-policy/">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -51,7 +53,7 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div class="footer-bottom">
         <span>&copy; ${new Date().getFullYear()} 29 Tech&trade;. All rights reserved.</span>
-        <a href="/animal-quiz/">Back to Animal Quiz</a>
+        <a href="${base}animal-quiz/">Back to Animal Quiz</a>
       </div>
     </div>
   </footer>

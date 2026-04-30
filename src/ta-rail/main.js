@@ -2,6 +2,8 @@ import '../shared/base.css'
 import './style.css'
 import { icons, storeBadges } from '../shared/icons.js'
 
+const base = import.meta.env.BASE_URL
+
 const features = [
   { icon: icons.user, title: 'My Profile', desc: 'Store personal details like name, branch, zone, designation, basic pay, and more. Enter once, use always.' },
   { icon: icons.clipboard, title: 'Duty Entry', desc: 'Create a log of duty entries with train number, departure-arrival time, route, and objective of travel.' },
@@ -14,8 +16,8 @@ const features = [
 document.querySelector('#app').innerHTML = `
   <header class="app-header">
     <div class="container header-inner">
-      <a href="/ta-rail/" class="brand">
-        <img src="/images/ta-rail/launch-icon.png" alt="TA Rail" class="brand-icon" />
+      <a href="${base}ta-rail/" class="brand">
+        <img src="${base}images/ta-rail/launch-icon.png" alt="TA Rail" class="brand-icon" />
         <span class="brand-name">TA Rail&trade;</span>
       </a>
     </div>
@@ -32,7 +34,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="hero-visual">
-        <img src="/images/ta-rail/launch-icon.png" alt="TA Rail App" class="hero-app-icon" />
+        <img src="${base}images/ta-rail/launch-icon.png" alt="TA Rail App" class="hero-app-icon" />
         <p class="hero-app-name">TA Rail</p>
       </div>
     </div>
@@ -67,7 +69,7 @@ document.querySelector('#app').innerHTML = `
       <div class="footer-top">
         <div class="footer-brand-col">
           <div class="footer-brand">
-            <img src="/images/ta-rail/launch-icon.png" alt="" class="footer-icon" />
+            <img src="${base}images/ta-rail/launch-icon.png" alt="" class="footer-icon" />
             <span>TA Rail&trade;</span>
           </div>
           <p class="footer-brand-desc">Travelling allowance calculation app based on Indian Railway Establishment Code.</p>
@@ -82,7 +84,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="/ta-rail/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}ta-rail/privacy-policy/">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">
