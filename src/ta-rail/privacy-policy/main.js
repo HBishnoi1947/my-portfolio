@@ -75,7 +75,7 @@ document.querySelector('#app').innerHTML = `
     <h2>4. Data Storage and Security</h2>
     <ul>
       <li>Your data is stored on servers provided by Google Cloud (via Firebase). These servers may be located outside India.</li>
-      <li>We use industry-standard encryption for data in transit (TLS/SSL).</li>
+      <li>We use industry-standard encryption for data in transit (TLS/SSL). Data stored in Cloud Firestore and Firebase Cloud Storage is encrypted at rest using Google Cloud&rsquo;s default encryption (AES-256). Local data on your device is protected by the operating system&rsquo;s native encryption capabilities.</li>
       <li>Access to your data is restricted and protected by Firebase security rules.</li>
       <li>Local data on your device is stored in a local database and shared preferences.</li>
       <li>No security measure is completely secure. While we take reasonable steps to protect your data, we cannot guarantee absolute security.</li>
@@ -117,7 +117,7 @@ document.querySelector('#app').innerHTML = `
     <p>The TA Rail Application is an independent tool for assisting with travelling allowance calculations. It is not affiliated with, endorsed by, or connected to the Indian Railways, the Ministry of Railways, or the Government of India.</p>
 
     <h2>11. Governing Law</h2>
-    <p>This Privacy Policy is governed by the laws of the Republic of India. Any disputes shall be subject to the exclusive jurisdiction of courts in Rajasthan, India.</p>
+    <p>This Privacy Policy is governed by the laws of the Republic of India. Any disputes shall be subject to the exclusive jurisdiction of courts in Madhya Pradesh, India.</p>
 
     <h2>12. Contact Us</h2>
     <p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
@@ -148,6 +148,7 @@ document.querySelector('#app').innerHTML = `
           <h4>Legal</h4>
           <ul>
             <li><a href="${base}ta-rail/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}ta-rail/terms-of-use/">Terms of Use</a></li>
           </ul>
         </div>
         <div class="footer-col">

@@ -35,6 +35,7 @@ export default defineConfig({
         'repped-privacy': resolve(__dirname, 'repped/privacy-policy/index.html'),
         'ta-rail': resolve(__dirname, 'ta-rail/index.html'),
         'ta-rail-privacy': resolve(__dirname, 'ta-rail/privacy-policy/index.html'),
+        'ta-rail-terms': resolve(__dirname, 'ta-rail/terms-of-use/index.html'),
       },
     },
   },

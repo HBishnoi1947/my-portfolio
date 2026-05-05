@@ -85,6 +85,7 @@ document.querySelector('#app').innerHTML = `
           <h4>Legal</h4>
           <ul>
             <li><a href="${base}ta-rail/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="${base}ta-rail/terms-of-use/">Terms of Use</a></li>
           </ul>
         </div>
         <div class="footer-col">
