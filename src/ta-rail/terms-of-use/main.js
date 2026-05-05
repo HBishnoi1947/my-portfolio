@@ -70,7 +70,17 @@ document.querySelector('#app').innerHTML = `
     <h2>10. Governing Law</h2>
     <p>These Terms shall be governed by and construed in accordance with the laws of the Republic of India. Any disputes arising from these Terms or your use of the Application shall be subject to the exclusive jurisdiction of the courts in Madhya Pradesh, India.</p>
 
-    <h2>11. Contact Us</h2>
+    <h2>11. Platform Providers</h2>
+    <p>The Application may be distributed through third-party platforms, including the Google Play Store (Google LLC) and the Apple App Store (Apple Inc.) (collectively, &ldquo;Platform Providers&rdquo;). You acknowledge and agree that:</p>
+    <ul>
+      <li>These Terms are between you and 29 Tech only, and not with any Platform Provider. Platform Providers are not responsible for the Application or its content.</li>
+      <li>Platform Providers have no obligation to furnish any maintenance or support services with respect to the Application.</li>
+      <li>Platform Providers are not responsible for addressing any claims by you or any third party relating to the Application, including product liability claims, consumer protection claims, intellectual property claims, or any claim that the Application fails to conform to any applicable legal or regulatory requirement.</li>
+      <li>In the event of any failure of the Application to conform to any applicable warranty, you may notify the relevant Platform Provider, who may refund the purchase price (if any) of the Application. To the maximum extent permitted by applicable law, Platform Providers have no other warranty obligation with respect to the Application.</li>
+      <li>Platform Providers are third-party beneficiaries of these Terms and, upon your acceptance, have the right to enforce these Terms against you.</li>
+    </ul>
+
+    <h2>12. Contact Us</h2>
     <p>If you have questions or concerns about these Terms of Use, please contact us:</p>
     <div class="contact-block">
       <p><strong>29 Tech</strong></p>
