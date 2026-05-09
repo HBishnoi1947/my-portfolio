@@ -29,8 +29,8 @@ document.querySelector('#app').innerHTML = `
         <h1>Calculate Your Travelling Allowance in Minutes</h1>
         <p class="hero-subtitle">A simple travelling allowance calculation app with in-built calculations based on Indian Railway Establishment Code. Get output in submittable PDF format.</p>
         <div class="hero-actions store-badges">
-          <a href="#" class="store-badge-link">${storeBadges.googlePlay}</a>
-          <a href="#" class="store-badge-link">${storeBadges.appStore}</a>
+          <a href="https://play.google.com/store/apps/details?id=com.harshbishnoi.ta_rail_1947" class="store-badge-link">${storeBadges.googlePlay}</a>
+          <a href="https://apps.apple.com/us/app/ta-rail/id6765936339" class="store-badge-link">${storeBadges.appStore}</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -77,8 +77,8 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Download</h4>
           <ul>
-            <li><a href="#">Android (Google Play)</a></li>
-            <li><a href="#">iOS (App Store)</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.harshbishnoi.ta_rail_1947">Android (Google Play)</a></li>
+            <li><a href="https://apps.apple.com/us/app/ta-rail/id6765936339">iOS (App Store)</a></li>
           </ul>
         </div>
         <div class="footer-col">
