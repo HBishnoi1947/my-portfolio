@@ -1,0 +1,13 @@
+Light Factory
+
+  A steampunk puzzle game where you bend light through a Victorian-era workshop of brass mirrors, prisms, and crystal
+  targets.
+
+  Each level drops you onto a wooden board with beams of colored light shooting across it. Your job is simple to learn, hard
+  to master: place mirrors to redirect the beams, split white light into red, blue, and yellow with prisms, and combine
+  colors through mixers — all under a tight move budget that rewards elegant solutions over brute force.
+
+  Sixty hand-crafted levels guide you from your first single-mirror bounce to multi-stage routing puzzles that demand
+  planning every reflection. Every solved level is a tiny machine you built yourself, glowing back at you.
+
+  Brass. Crystal. Light. Think.

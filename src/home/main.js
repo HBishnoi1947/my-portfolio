@@ -12,6 +12,13 @@ const apps = [
     accentColor: '#22c55e',
   },
   {
+    name: 'Light Factory',
+    slug: `${base}light-factory/`,
+    icon: `${base}images/light-factory/launch-icon.png`,
+    tagline: 'A steampunk puzzle of mirrors, prisms & light',
+    accentColor: '#b45309',
+  },
+  {
     name: 'Repped',
     slug: `${base}repped/`,
     icon: `${base}images/repped/launch-icon.png`,
