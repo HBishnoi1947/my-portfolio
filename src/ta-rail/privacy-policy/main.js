@@ -105,7 +105,7 @@ document.querySelector('#app').innerHTML = `
       <li><strong>Deletion:</strong> You can delete your account and all associated data from the Settings page in the Application. This removes your data from our servers, cloud storage, and your device.</li>
       <li><strong>Data Export:</strong> You can export your duty entries as PDF documents from within the Application.</li>
     </ul>
-    <p>For any requests or questions, contact us at: <a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></p>
+    <p>For any requests or questions, contact us at: <a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></p>
 
     <h2>8. Children's Privacy</h2>
     <p>The Application is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
@@ -123,7 +123,7 @@ document.querySelector('#app').innerHTML = `
     <p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
     <div class="contact-block">
       <p><strong>29 Tech</strong></p>
-      <p><strong>Email:</strong> <a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></p>
     </div>
   </main>
 
@@ -154,7 +154,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Support</h4>
           <ul>
-            <li><a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></li>
+            <li><a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></li>
           </ul>
         </div>
       </div>

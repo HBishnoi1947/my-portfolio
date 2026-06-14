@@ -17,7 +17,7 @@ document.querySelector('#app').innerHTML = `
     <h1>Privacy Policy</h1>
     <p class="placeholder">
       Privacy policy coming soon.<br><br>
-      For any questions, contact us at <a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a>
+      For any questions, contact us at <a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a>
     </p>
   </main>
 
@@ -47,7 +47,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Support</h4>
           <ul>
-            <li><a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></li>
+            <li><a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></li>
           </ul>
         </div>
       </div>

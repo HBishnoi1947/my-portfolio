@@ -28,7 +28,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        home: resolve(__dirname, 'home/index.html'),
+        portfolio: resolve(__dirname, 'portfolio/index.html'),
         'animal-quiz': resolve(__dirname, 'animal-quiz/index.html'),
         'animal-quiz-privacy': resolve(__dirname, 'animal-quiz/privacy-policy/index.html'),
         repped: resolve(__dirname, 'repped/index.html'),
@@ -36,6 +36,9 @@ export default defineConfig({
         'ta-rail': resolve(__dirname, 'ta-rail/index.html'),
         'ta-rail-privacy': resolve(__dirname, 'ta-rail/privacy-policy/index.html'),
         'ta-rail-terms': resolve(__dirname, 'ta-rail/terms-of-use/index.html'),
+        'light-factory': resolve(__dirname, 'light-factory/index.html'),
+        'light-factory-privacy': resolve(__dirname, 'light-factory/privacy-policy/index.html'),
+        'light-factory-terms': resolve(__dirname, 'light-factory/terms-of-use/index.html'),
       },
     },
   },

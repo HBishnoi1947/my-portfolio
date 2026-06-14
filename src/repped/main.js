@@ -29,7 +29,7 @@ document.querySelector('#app').innerHTML = `
         <h1>Smart. Automatic.<br>Motivating.</h1>
         <p class="hero-subtitle">Turn your phone into a personal rep counter. Repped uses your camera and AI pose detection to automatically count your reps in real-time. No wearables, no manual logging.</p>
         <div class="hero-actions store-badges">
-          <a href="#" class="store-badge-link">${storeBadges.googlePlay}</a>
+          <a href="https://play.google.com/store/apps/details?id=com.my_pushup_buddy.app1947" class="store-badge-link">${storeBadges.googlePlay}</a>
           <a href="#" class="store-badge-link">${storeBadges.appStore}</a>
         </div>
       </div>
@@ -94,7 +94,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Download</h4>
           <ul>
-            <li><a href="#">Android (Google Play)</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.my_pushup_buddy.app1947">Android (Google Play)</a></li>
             <li><a href="#">iOS (App Store)</a></li>
           </ul>
         </div>
@@ -107,7 +107,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Support</h4>
           <ul>
-            <li><a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></li>
+            <li><a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></li>
           </ul>
         </div>
       </div>

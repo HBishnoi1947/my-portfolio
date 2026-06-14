@@ -1,0 +1,121 @@
+:root {
+  color-scheme: light;
+  --bg: #fffaf2;
+  --surface: #ffffff;
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+  --text-heading: #1c1917;
+  --accent: #b45309;
+  --accent-hover: #92400e;
+  --accent-text: #ffffff;
+  --accent-shadow: rgba(180, 83, 9, 0.25);
+  --accent-bg: rgba(180, 83, 9, 0.08);
+  --border: #f0e0c8;
+  --card-shadow: rgba(180, 83, 9, 0.08);
+  --card-radius: 12px;
+  --header-bg: rgba(255, 250, 242, 0.92);
+  --hero-bg: linear-gradient(135deg, #3f2417 0%, #78350f 45%, #b45309 100%);
+  --hero-text: #ffffff;
+  --footer-bg: #1c1917;
+  --hero-app-name: #fbbf24;
+}
+
+.app-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.brand-icon {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(180, 83, 9, 0.18);
+}
+
+.hero {
+  background: var(--hero-bg);
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 80% 50%, rgba(251, 191, 36, 0.18) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-app-icon {
+  border-radius: 28px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4), 0 0 0 3px rgba(251, 191, 36, 0.3);
+}
+
+.hero-text h1 {
+  letter-spacing: -0.5px;
+}
+
+.hero-subtitle {
+  opacity: 0.88;
+}
+
+.about-section {
+  background: var(--bg);
+}
+
+.about-inner {
+  max-width: 720px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.about-inner p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.85;
+  margin-bottom: 24px;
+}
+
+.about-inner p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .about-inner p {
+    font-size: 1rem;
+  }
+}
+
+.app-footer {
+  background: var(--footer-bg);
+  border-top: none;
+  color: #a8a29e;
+  --footer-divider: rgba(255, 255, 255, 0.06);
+  --footer-heading: #d6d3d1;
+  --footer-muted: #a8a29e;
+}
+
+.app-footer .footer-brand span {
+  color: #fafaf9;
+}
+
+.app-footer .footer-col a {
+  color: #a8a29e;
+}
+
+.app-footer .footer-col a:hover {
+  color: #fbbf24;
+}
+
+.app-footer .footer-bottom {
+  color: #78716c;
+}
+
+.app-footer .footer-bottom a {
+  color: #a8a29e;
+}
+
+.app-footer .footer-bottom a:hover {
+  color: #fbbf24;
+}
