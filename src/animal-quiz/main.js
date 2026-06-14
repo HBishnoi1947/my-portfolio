@@ -28,7 +28,7 @@ document.querySelector('#app').innerHTML = `
         <h1>Explore the Wild World of Animals!</h1>
         <p class="hero-subtitle">The ultimate learning and fun experience for children. Dive into the amazing world of animals with engaging and educational quizzes.</p>
         <div class="hero-actions store-badges">
-          <a href="#" class="store-badge-link">${storeBadges.googlePlay}</a>
+          <a href="https://play.google.com/store/apps/details?id=com.animalquiz.app1947" class="store-badge-link">${storeBadges.googlePlay}</a>
           <a href="#" class="store-badge-link">${storeBadges.appStore}</a>
         </div>
       </div>
@@ -76,7 +76,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Download</h4>
           <ul>
-            <li><a href="#">Android (Google Play)</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.animalquiz.app1947">Android (Google Play)</a></li>
             <li><a href="#">iOS (App Store)</a></li>
           </ul>
         </div>
@@ -89,7 +89,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Support</h4>
           <ul>
-            <li><a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></li>
+            <li><a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></li>
           </ul>
         </div>
       </div>

@@ -67,7 +67,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Support</h4>
           <ul>
-            <li><a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></li>
+            <li><a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></li>
           </ul>
         </div>
       </div>

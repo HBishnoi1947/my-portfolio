@@ -84,7 +84,7 @@ document.querySelector('#app').innerHTML = `
     <p>If you have questions or concerns about these Terms of Use, please contact us:</p>
     <div class="contact-block">
       <p><strong>29 Tech</strong></p>
-      <p><strong>Email:</strong> <a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></p>
     </div>
   </main>
 
@@ -115,7 +115,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-col">
           <h4>Support</h4>
           <ul>
-            <li><a href="mailto:harshupbishnoi@gmail.com">harshupbishnoi@gmail.com</a></li>
+            <li><a href="mailto:contact@29tech.co.in">contact@29tech.co.in</a></li>
           </ul>
         </div>
       </div>

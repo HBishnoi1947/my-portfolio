@@ -28,7 +28,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        home: resolve(__dirname, 'home/index.html'),
+        portfolio: resolve(__dirname, 'portfolio/index.html'),
         'animal-quiz': resolve(__dirname, 'animal-quiz/index.html'),
         'animal-quiz-privacy': resolve(__dirname, 'animal-quiz/privacy-policy/index.html'),
         repped: resolve(__dirname, 'repped/index.html'),
